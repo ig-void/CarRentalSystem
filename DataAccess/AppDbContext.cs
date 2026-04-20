@@ -1,5 +1,8 @@
 ﻿using DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
+using ServiceStack.Text;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,6 +17,14 @@ namespace DataAccess
         public DbSet<Customer> Customers { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            if(!optionsBuilder.IsConfigured)
+            {
+                var config = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("app.config.json", optional: false)
+                    .Build();
+            }
+            string connectionString = Config.GetConnectionString("DefaultConnection");
             optionsBuilder.UseSqlServer("Server=Dell,51434;Database=Anubhav;User Id=Anubhav;Password=Anubhav;TrustServerCertificate=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
