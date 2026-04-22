@@ -166,3 +166,11 @@ C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\BuisnessLayer.d
 C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Utilities.dll
 C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\BuisnessLayer.pdb
 C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Utilities.pdb
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Microsoft.Extensions.Configuration.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Json.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\ServiceStack.Text.dll
+C:\step2gen\C#_Main_Folder\CarRentalService\UI\bin\Debug\net10.0\appsetting.json

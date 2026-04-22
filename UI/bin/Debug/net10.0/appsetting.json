@@ -1,0 +1,5 @@
+{
+ "ConnectionStrings": {
+    "DefaultConnection": "Server=Dell,51434;Database=Anubhav;User Id=Anubhav;Password=Anubhav;TrustServerCertificate=True;"
+  }
+}
